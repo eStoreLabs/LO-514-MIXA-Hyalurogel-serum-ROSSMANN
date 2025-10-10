@@ -454,18 +454,18 @@
 </div>
 <script src="https://www.ros.net.pl/Portals/0/rich-content/mixa/3600551049854/scripts/slider.js"></script>
 <script>
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('#es-mixa .swiper', {
     loop: true,
     pagination: {
-      el: '.swiper-pagination',
+      el: '#es-mixa .swiper-pagination',
       clickable: true,
       renderBullet: function (index, className) {
         return '<span class="' + className + '">' + (index + 1) + '</span>'
       }
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
+      nextEl: '#es-mixa .swiper-button-next',
+      prevEl: '#es-mixa .swiper-button-prev'
     }
   })
 </script>
